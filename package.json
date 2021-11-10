@@ -1,0 +1,33 @@
+{
+  "name": "M8-D8-BE",
+  "version": "1.0.0",
+  "description": "M8-D8-BE",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanxun95/M8-D8-BE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yanxun95/M8-D8-BE/issues"
+  },
+  "homepage": "https://github.com/yanxun95/M8-D8-BE#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^6.0.0",
+    "mongoose": "^6.0.12",
+    "socket.io": "^4.3.2"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
